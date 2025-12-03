@@ -31,7 +31,7 @@ export default function MatchItem({
                         width={50}
                         height={50}
                     />
-                    <p>{data.homeTeam.name}</p>
+                    <p className="text-center">{data.homeTeam.name}</p>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <p>VS</p>
@@ -44,7 +44,7 @@ export default function MatchItem({
                         width={50}
                         height={50}
                     />
-                    <p>{data.awayTeam.name}</p>
+                    <p className="text-center">{data.awayTeam.name}</p>
                 </div>
             </div>
         </Card>

@@ -10,9 +10,9 @@ export default function Matches() {
     const { t } = useTranslation("site");
 
     return (
-        <section className="px-[120px] py-10 space-y-4">
+        <section className="px-10 py-20 space-y-4">
             <h1>{t("matches.title")}</h1>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {EXAMPLE_MATCHES && EXAMPLE_MATCHES.map((match, index) => (
                     <MatchItem data={match} key={index}/>
                 ))}
