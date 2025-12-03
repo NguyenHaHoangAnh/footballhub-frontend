@@ -8,7 +8,6 @@ i18n
         resources,
         fallbackLng: "vi",
         debug: false,
-        initImmediate: false,
         interpolation: {
             escapeValue: false,
         },

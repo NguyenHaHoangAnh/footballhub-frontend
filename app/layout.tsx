@@ -3,7 +3,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
-import "./i18n";
+import { I18nextProvider } from "react-i18next";
+import i18n from "@/app/i18n";
+import { useLanguageDetector } from "@/lib/hooks/uselanguageDetector";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,13 +22,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Change language base on browser's language
+  useLanguageDetector();
+
   return (
-    <html lang="en">
+    <html lang={i18n?.resolvedLanguage || "vi"}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
-        <Toaster />
+        <I18nextProvider i18n={i18n}>
+          {children}
+          <Toaster />
+        </I18nextProvider>
       </body>
     </html>
   );

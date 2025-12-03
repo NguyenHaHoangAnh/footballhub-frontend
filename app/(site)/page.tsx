@@ -1,6 +1,6 @@
 "use client";
 
-import Matches from "@/components/Matches/page";
+import Matches from "@/components/Matches";
 
 export default function Home() {
     return (
