@@ -1,0 +1,20 @@
+{
+    "title": "Standings",
+    "column": {
+        "no": "Position",
+        "teamName": "Team name",
+        "playedGames": "Played",
+        "won": "Won",
+        "draw": "Drawn",
+        "lost": "Lost",
+        "goalsFor": "Goals for",
+        "goalsAgainst": "Goals against",
+        "goalsDifference": "Goal difference",
+        "points": "Points",
+        "form": "Recent Form",
+        "createdAt": "Created at",
+        "createdBy": "Created by",
+        "updatedAt": "Updated at",
+        "updatedBy": "Updated by"
+    }
+}

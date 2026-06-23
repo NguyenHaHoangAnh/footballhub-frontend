@@ -1,5 +1,44 @@
 {
-    "save": "Save",
-    "cancel": "Cancel",
-    "delete": "Delete"
+    "button": {
+        "signIn": "Sign In",
+        "signUp": "Sign Up",
+        "signOut": "Sign Out",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "confirm": "Confirm",
+        "updateManually": "Update Manually",
+        "create": "Create",
+        "view": "View",
+        "edit": "Edit"
+    },
+    "language": {
+        "vi": "Vietnamese",
+        "en": "English"
+    },
+    "no": "No.",
+    "action": "Actions",
+    "filter": {
+        "contains": "Contains",
+        "equals": "Equals",
+        "neq": "Not Equal",
+        "startswith": "Starts With",
+        "endswith": "Ends With",
+        "in": "In",
+        "notIn": "Not In",
+        "gt": "Greater Than",
+        "gte": "Greater Than or Equal",
+        "lt": "Less Than",
+        "lte": "Less Than or Equal"
+    },
+    "pagination": {
+        "page": "Page: {{currentPage}}/{{totalPages}}",
+        "total": "Total: {{totalElements}} record(s)",
+        "size": "Records per page",
+        "jump": "Go to page"
+    },
+    "empty": "No data available",
+    "placeholder": {
+        "search": "Search..."
+    }
 }

@@ -1,0 +1,17 @@
+{
+    "title": "Matches",
+    "competition": "Competition",
+    "matchDay": "Match day",
+    "homeTeam": "Home team",
+    "awayTeam": "Away team",
+    "status": {
+        "timed": "Not started",
+        "live": "Live",
+        "in_play": "In play",
+        "pause": "Paused",
+        "finished": "Finished",
+        "postponed": "Postponed",
+        "suspended": "Suspended",
+        "cancelled": "Cancelled"
+    }
+}

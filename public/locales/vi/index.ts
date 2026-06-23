@@ -1,7 +1,11 @@
 import common from './common.json';
-import site from './site.json';
+import publicMatch from './public/match.json';
+import publicStanding from './public/standing.json';
+import publicTeam from './public/team.json';
 
 export default {
     common,
-    site,
+    "public/match": publicMatch,
+    "public/standing": publicStanding,
+    "public/team": publicTeam,
 }

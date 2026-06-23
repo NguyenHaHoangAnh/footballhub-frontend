@@ -7,6 +7,7 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "@/app/i18n";
 import { useLanguageDetector } from "@/lib/hooks/uselanguageDetector";
 import Header from "@/components/Header";
+import ReactQueryClientProvider from "./providers/react-query-client-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,9 +33,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <I18nextProvider i18n={i18n}>
-          <Header />
-          {children}
-          <Toaster />
+          <ReactQueryClientProvider>
+            <Header />
+            {children}
+            <Toaster />
+          </ReactQueryClientProvider>
         </I18nextProvider>
       </body>
     </html>

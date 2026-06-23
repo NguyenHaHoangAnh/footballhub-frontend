@@ -1,0 +1,17 @@
+{
+    "title": "Trận đấu",
+    "competition": "Giải đấu",
+    "matchDay": "Vòng",
+    "homeTeam": "Đội nhà",
+    "awayTeam": "Đội khách",
+    "status": {
+        "timed": "Chưa diễn ra",
+        "live": "Đang diễn ra",
+        "in_play": "Đang diễn ra",
+        "pause": "Tạm dừng",
+        "finished": "Đã kết thúc",
+        "postponed": "Hoãn",
+        "suspended": "Tạm ngưng",
+        "cancelled": "Hủy"
+    }
+}
