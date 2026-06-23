@@ -24,13 +24,6 @@ export default function Standings({
     const { t } = useTranslation(["public/standing"]);
     const [competitionId, setCompetitionId] = useState<number | null>(null);
     const [seasonId, setSeasonId] = useState<number | null>(null);
-console.log("render", {
-    teamId,
-    _competitionId,
-    _seasonId,
-    competitionId,
-    seasonId,
-});
 
     useEffect(() => {
         if (!_competitionId || !_seasonId) {
